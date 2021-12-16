@@ -17,6 +17,13 @@ Esse é um teste técnico para SenseData. Consiste em um CRUD básico de uma pla
   
  - 🎨**Deploy** >>> https://sensedata.araujocoding.repl.co/
 
+
+## Dados
+
+A autenticação e a persistência dos dados foram feitas por meio de uma fake-api, ambas criadas por mim.
+- [**Autenticação**](https://replit.com/@Araujocoding/auth-fake-api#package.json)
+- [**Dados**](https://replit.com/@Araujocoding/finance#index.js)
+
  ## Imagens ✨
  
  ![1](https://user-images.githubusercontent.com/60116988/146416470-a96d71b0-0011-4467-b308-7e52197a559b.png)
