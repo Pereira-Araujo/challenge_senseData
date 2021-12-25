@@ -9,9 +9,10 @@ export default function OutFlow() {
         return transaction.category.toLowerCase() === 'saida'
     })
 
-    const amounts = outflows.map((transaction) => {
+    const amounts = outflows.length > 0  ? outflows.map((transaction) => {
         return parseFloat(transaction.amount)
-    }).reduce((x, y) => x + y)
+    }).reduce((x, y) => x + y) : '0.00'
+
 
 
     return (

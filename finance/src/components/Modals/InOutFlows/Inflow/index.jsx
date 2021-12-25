@@ -10,9 +10,9 @@ export default function InFlow() {
         return transaction.category.toLowerCase() === 'entrada'
     })
 
-    const amounts = inflows.map((transaction) => {
+    const amounts =  inflows.length > 0  ? inflows.map((transaction) => {
         return parseFloat(transaction.amount)
-    }).reduce((x, y) => x + y)
+    }).reduce((x, y) => x + y) : '0.00'
 
 
     return (
